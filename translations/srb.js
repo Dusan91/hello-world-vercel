@@ -1,0 +1,18 @@
+export default {
+  aboutMe: 'O meni',
+  hireMe: 'Zaposli me',
+  professionalExperience: 'Profesionalno iskustvo',
+  projects: 'Projekti',
+  skills: 'Veštine',
+  education: 'Obrazovanje',
+  seeDetails: 'Kliknite da vidite detalje',
+  goUp: 'Vrh',
+  goBack: 'Nazad',
+  tehnologies: 'Tehnologije',
+  contact: 'Kontakt',
+  email: 'Email',
+  phone: 'Telefon',
+  linkedin: 'LinkedIn',
+  goToLinkedin: 'Idi na LinkedIn',
+  sendMail: 'Idi na LinkedIn',
+};

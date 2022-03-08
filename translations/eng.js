@@ -1,0 +1,17 @@
+export default {
+  aboutMe: 'About me',
+  hireMe: 'Hire me',
+  professionalExperience: 'Professional experience',
+  projects: 'Projects',
+  skills: 'Skills',
+  education: 'Education',
+  seeDetails: 'Click to see details',
+  goUp: 'Go up',
+  goBack: 'Go back',
+  tehnologies: 'Tehnologies',
+  contact: 'Contact',
+  email: 'Email',
+  phone: 'Phone',
+  linkedin: 'LinkedIn',
+  goToLinkedin: 'Go to LinkedIn',
+};
