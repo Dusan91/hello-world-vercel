@@ -1,0 +1,231 @@
+{
+    "userData": {
+        "name": "Dušan Milenković",
+        "position": "Frontend developer",
+        "linkedin": "https://www.linkedin.com/in/dusan-milenkovic-833827148/",
+        "aboutMe": {
+            "Eng": "Over 3 years of experience working as a full stack developer (with focus on frontend) especially in the financial and banking systems. Very flexible and team oriented. Persistent and agile in learning, self-aware and always open for feedback and new suggestions. Creative",
+            "Srb": "Preko 3 godine iskustva u radu kao full stack programer (sa fokusom na frontend) posebno u finansijskim i bankarskim sistemima. Veoma fleksibilan i timski orijentisan. Uporan i agilan u učenju, samosvesan i uvek otvoren za povratne informacije i nove predloge. Kreativan"
+        },
+        "education": {
+            "Eng": [
+                {
+                    "course": ".NET course",
+                    "date": "2017",
+                    "school": "NiCat cluster"
+                },
+                {
+                    "course": "Electrotechnician for electronics",
+                    "date": "2006 - 2010",
+                    "school": "Electrotechnical school “Mija Stanimirović”, Niš"
+                }
+            ],
+            "Srb": [
+                {
+                    "course": ".NET kurs",
+                    "date": "2017",
+                    "school": "NiCat cluster"
+                },
+                {
+                    "course": "Elektrotehničar elektronike",
+                    "date": "2006 - 2010",
+                    "school": "Elektrotehnička škola “Mija Stanimirović”, Niš"
+                }
+            ]
+        },
+        "contactData": {
+            "email": "dusanmilenkovicdolac@gmail.com",
+            "phone": "061/62-77-147"
+        }
+    },
+    "professionalExpirence": [
+        {
+            "company": "Badin soft",
+            "position": "Frontend developer",
+            "date": {
+                "Eng": "October 2018 - Present",
+                "Srb": "Oktobar 2018 - Trenutno"
+            },
+            "img": "badin.png"
+        },
+        {
+            "company": "Andormeda Solutions",
+            "position": "Backend developer",
+            "date": {
+                "Eng": "January 2018 - October 2018",
+                "Srb": "Januar 2018 - Oktobar 2018"
+            },
+            "img": "andromeda.png"
+        },
+        {
+            "company": "Prime Software",
+            "position": "Backend developer",
+            "date": {
+                "Eng": "August 2017 - January 2018",
+                "Srb": "Avgust 2017 - Januar 2018"
+            },
+            "img": "prime.png"
+        }
+    ],
+    "projects": [
+        {
+            "id": "1",
+            "name": "QR Code",
+            "client": "Direkt bank",
+            "tehnologies": {
+                "name": "Frontend",
+                "options": [
+                    "Vue 2"
+                ]
+            },
+            "desc": {
+                "Eng": "The application is intended for legal entities (entrepreneurs, economic entities that charge for services or goods and payment institutions for non-cash payment) - clients of the bank. The bank must generate a QR code that complies with the NBS specification for the QR code for invoices. Non-cash payments by scanning the QR code generated in this way within the M-banking applications of banks are exclusively realized within the IPS System. The payer, receives a confirmation of the payment made through the IPS System within his M-banking application. The merchant receives a payment confirmation via the QRG application,which communicates with the bank's Core application via a direct interface (WEB service)",
+                "Srb": "Aplikacija je namenjena pravnim licima (preduzetnicima, privrednim subjektima koji naplaćuju usluge ili dobra i platnim institucijama za bezgotovinsko plaćanje) - klijentima banke. Banka mora da generiše QR kod koji je u skladu sa specifikacijom NBS za QR kod za fakture. Bezgotovinsko plaćanje skeniranjem QR koda generisanog na ovaj način u okviru M-banking aplikacija banaka isključivo se realizuje u okviru IPS sistema. Uplatitelj, u okviru svoje M-banking aplikacije, dobija potvrdu o izvršenoj uplati preko IPS sistema. Prodavac dobija potvrdu o uplati preko QRG aplikacije, koja komunicira sa osnovnom aplikacijom banke preko direktnog interfejsa (WEB servis)"
+            }
+        },
+        {
+            "id": "2",
+            "name": "Click Contracts",
+            "client": "",
+            "tehnologies": {
+                "name": "Frontend",
+                "options": [
+                    "Vue 2"
+                ]
+            },
+            "desc": {
+                "Eng": "Providing a web-based application for providing intelligent and variably sized forms to the building industry with the Customer User of the application primarily being builders and associated trades (carpenters, metal workers, pool builders, electricians, plumbers etc.). The application will facilitate the online preparation, purchase and completion of functionally advanced forms in a process driven approach which will be led by the application via a simple, smooth and easy to use UI and UX design. The primary goal of this application is to provide an easy way to carry out what is most often considered a complex, confusing and undesirable task for builders/trades, that they are legally mandated to carry out when contracting with their clients/customers when doing business with them.",
+                "Srb": "Pružanje web-based aplikacije za pružanje inteligentnih formi promenljive veličine za građevinsku industriju pri čemu su korisnik aplikacije prvenstveno građevinari i povezani zanati (stolari, metalci, graditelji bazena, električari, vodoinstalateri itd.). Aplikacija će olakšati onlajn pripremu, kupovinu i popunjavanje funkcionalno naprednih obrazaca u pristupu vođenom procesom koji će biti vođen od strane aplikacije putem jednostavnog, glatkog i lakog za korišćenje UI i UKS dizajna. Primarni cilj ove aplikacije je da obezbedi jednostavan način za obavljanje onoga što se najčešće smatra složenim, zbunjujućim i nepoželjnim zadatkom za građevinare/zanatlije, a koji su po zakonu obavezni da obavljaju kada sklapaju ugovore sa svojim klijentima/kupcima prilikom poslovanja sa njima."
+            }
+        },
+        {
+            "id": "3",
+            "name": "Klik express",
+            "client": "",
+            "tehnologies": {
+                "name": "Frontend",
+                "options": [
+                    "Vue 2",
+                    "NuxtJS"
+                ]
+            },
+            "desc": {
+                "Eng": "Providing a web-based application for small business. Application has 3 modules: Client app (server-side app in Nuxt.js), Business app (client-side app  in Vue.js), Admin app (client side app in Vue.js)",
+                "Srb": "Pružanje web-based aplikacije za mala preduzeća. Aplikacija ima 3 modula: klijentsku aplikaciju (aplikacija na strani servera u Nukt.js), poslovna aplikacija (aplikacija na strani klijenta u Vue.js), administratorska aplikacija (aplikacija na strani klijenta u Vue.js)"
+            }
+        },
+        {
+            "id": "4",
+            "name": "Payment institutions",
+            "client": "",
+            "tehnologies": {
+                "name": "Frontend",
+                "options": [
+                    "Vue 2"
+                ]
+            },
+            "desc": {
+                "Eng": "Web and desktop application for performing payment transactions in exchange offices, banks, etc.",
+                "Srb": "Veb i desktop aplikacija za obavljanje platnog prometa u menjačnicama, bankama itd."
+            }
+        },
+        {
+            "id": "5",
+            "name": "Leon",
+            "client": "United Cloud",
+            "tehnologies": {
+                "name": "Frontend",
+                "options": [
+                    "Vue 2"
+                ]
+            },
+            "desc": {
+                "Eng": "Platform which uses machine learning to detect specific things in video files and live streams. Designing and developing the web part of the platform from ground up using microservice architecture. Responsibilities included: UX/UI Design, Creating a responsive web app ",
+                "Srb": "Platforma koja koristi mašinsko učenje za otkrivanje određenih stvari u video datotekama i strimovima uživo. Dizajniranje i razvoj veb dela platforme od samog početka korišćenjem mikroservisne arhitekture. Odgovornosti su uključivale: UX/UI dizajn, Kreiranje prilagodljive veb aplikacije"
+            }
+        },
+        {
+            "id": "6",
+            "name": "Info Portal & Admin Panel",
+            "client": "Raiffeisen bank",
+            "tehnologies": {
+                "name": "Frontend",
+                "options": [
+                    "React (JS & TS)",
+                    "Vue 3"
+                ]
+            },
+            "desc": {
+                "Eng": "Responsive web application for a bank with an admin panel for banking system setup and a client portal for the clients. Responsibilities included: UX/UI Design, Creating a responsive web app, Maintenance",
+                "Srb": "Responzivna web aplikacija za banku sa admin panelom za podešavanje bankarskog sistema i klijentskim portalom za klijente. Odgovornosti su uključivale: UX/UI dizajn, Kreiranje prilagodljive veb aplikacije, Održavanje"
+            }
+        },
+        {
+            "id": "7",
+            "name": "Foreign Exchange",
+            "client": "Direkt bank",
+            "tehnologies": {
+                "name": "Frontend",
+                "options": [
+                    "React"
+                ]
+            },
+            "desc": {
+                "Eng": "Web application for currency tracking and trading. Responsibilities included: UX/UI Design, Creating a responsive web app, Maintenance",
+                "Srb": "Web aplikacija za praćenje valuta i trgovanje. Odgovornosti su uključivale: UX/UI dizajn, Kreiranje prilagodljive veb aplikacije, Održavanje"
+            }
+        },
+        {
+            "id": "8",
+            "name": "WWS Servis",
+            "client": "Direkt bank",
+            "tehnologies": {
+                "name": "Backend",
+                "options": [
+                    "C#, .Net",
+                    "MySql"
+                ]
+            },
+            "desc": {
+                "Eng": "Maintaining a bank application and generating crystal reports.",
+                "Srb": "Održavanje bankarske aplikacije i generisanje \"crystal\" izveštaja."
+            }
+        },
+        {
+            "id": "9",
+            "name": "Health care application",
+            "client": "Henry Schein",
+            "tehnologies": {
+                "name": "Backend",
+                "options": [
+                    "C#, .Net",
+                    "MySql"
+                ]
+            },
+            "desc": {
+                "Eng": "Maintaining an application for generating reports and creating batch jobs.",
+                "Srb": "Održavanje aplikacije za generisanje izveštaja i kreiranje batch poslova."
+            }
+        }
+    ],
+    "skills": [
+        "HTML",
+        "CSS3",
+        "JavaScript",
+        "TypeScript",
+        "Vue 2",
+        "Vue 3",
+        "React",
+        "Nuxt",
+        "Next",
+        "ASPN .Net framework",
+        "C#",
+        "SQL",
+        "WebSocket",
+        "GraphQL",
+        "PHP (Laravel)",
+        "Git",
+        "Agile methodologies (Scrum, Canban)",
+        "JIRA"
+    ]
+}

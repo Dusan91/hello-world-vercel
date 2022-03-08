@@ -1,0 +1,88 @@
+html{
+    font-family: 'Sora', sans-serif;
+    color: #314163;
+    background: url('../assets/Background-website-01.jpg');
+    background-size: cover;
+}
+#__next{
+    width: 1600px;
+    margin: 0px auto;
+    zoom: 80%
+}
+p{
+    color: #7284A6;
+    font-size: 1em;
+    line-height: 2;
+    font-weight: 200;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    min-width: 150px;
+    background-color: #31416371;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 3rem;
+    margin-left: -60px;
+  }
+  
+ 
+  .lastChild{
+    right: 0%;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;  /* At the top of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #31416371 transparent;
+  }
+
+  .tooltip .lastChild::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;  /* At the top of the tooltip */
+    left: 90%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #31416371 transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+
+  .tooltip .tooltiptext-projects {
+    visibility: hidden;
+    min-width: 150px;
+    background-color: #31416371;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 0%;
+  }
+ 
+  
+  .tooltip:hover .tooltiptext-projects {
+    visibility: visible;
+  }
