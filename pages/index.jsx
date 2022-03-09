@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { Fragment, useRef } from 'react';
-// import API from '../services/api';
+// import API from '../services/api'; //For dev
 import Header from '../components/header';
 import styles from '../styles/main.module.css';
 import AboutMe from '../components/aboutMe';
@@ -86,10 +86,12 @@ const Home = ({ userData, expiriece, projects, skills }) => {
 };
 
 Home.getInitialProps = async () => {
+  /* !For dev
   // const userData = await API.getUserData();
   // const expiriece = await API.getExpiriece();
   // const projects = await API.getProjects();
   // const skills = await API.getSkills();
+  */
   const data = JSON.parse(JSON.stringify(DB));
   const userData = data.userData;
   const expiriece = data.professionalExpirence;
