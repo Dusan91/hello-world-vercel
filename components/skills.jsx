@@ -11,8 +11,8 @@ const Skills = ({ skills, labels }) => {
 
       <div className={styles.contentWrapperFlexSpace}>
         {skills &&
-          skills.map(item => (
-            <h3 className={styles.tag} key={item}>
+          skills.map((item, i) => (
+            <h3 className={styles.tag} key={i}>
               {item}
             </h3>
           ))}
