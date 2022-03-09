@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const httpRequest = axios.create({
-  baseURL: 'http://localhost:3001',
+  baseURL: 'https://hello-world-vercel-tau.vercel.app:3001',
 });
 
 export default httpRequest;
