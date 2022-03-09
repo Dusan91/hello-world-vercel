@@ -1,5 +1,5 @@
 import styles from '../../styles/main.module.css';
-// import API from '../../services/api';
+import API from '../../services/api';
 import { useRouter } from 'next/router';
 import getLabels from '../../utils/getLanguageLabels';
 import { useLanguage } from '../../utils/useLanguage';
@@ -7,9 +7,9 @@ import DB from '../../db.json';
 const ProjectId = ({ project }) => {
   const { language } = useLanguage();
   const labels = getLabels(language);
-
   const router = useRouter();
   const handleGoBack = () => router.back();
+  if (!project) return null;
   return (
     <div className={styles.projectDetails}>
       <h1 className={styles.title}>{project.name}</h1>
@@ -46,11 +46,7 @@ const ProjectId = ({ project }) => {
 };
 
 ProjectId.getInitialProps = async ({ query }) => {
-  // const project = await API.getProject(query.projectId);
-  const data = JSON.parse(JSON.stringify(DB));
-  const project = data.projects.filter(
-    project => project.id === query.projectId
-  );
-  return { project: project.length ? project[0] : null };
+  const project = await API.getProject(query.projectId);
+  return { project: project.res };
 };
 export default ProjectId;
