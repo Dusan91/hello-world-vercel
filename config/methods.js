@@ -1,14 +1,14 @@
-import { fetch } from './setup'
+import { fakeFetch, fetch } from './setup';
 
 export const api = {
   get: async (url, options) =>
-    await fetch({ ...options, url, method: 'GET' }),
+    await fakeFetch({ ...options, url, method: 'GET' }),
   post: async (url, options) =>
-    await fetch({ ...options, url, method: 'POST' }),
+    await fakeFetch({ ...options, url, method: 'POST' }),
   put: async (url, options) =>
-    await fetch({ ...options, url, method: 'PUT' }),
+    await fakeFetch({ ...options, url, method: 'PUT' }),
   delete: async (url, options) =>
-    await fetch({ ...options, url, method: 'DELETE' }),
+    await fakeFetch({ ...options, url, method: 'DELETE' }),
   patch: async (url, options) =>
-    await fetch({ ...options, url, method: 'PATCH' })
-}
+    await fakeFetch({ ...options, url, method: 'PATCH' }),
+};
